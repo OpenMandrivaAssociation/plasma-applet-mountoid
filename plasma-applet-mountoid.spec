@@ -1,7 +1,7 @@
 %define name	plasma-applet-mountoid
 %define srcname	mountoid
 %define version	0.33
-%define release	%mkrel 1
+%define release	%mkrel 2
 %define Summary	 Plasmoid for mount/unmount devices from fstab
 
 
@@ -34,6 +34,8 @@ fully configurable.
 
 %prep
 %setup -q -n %{srcname}
+# switching from kdesudo to kdesu
+sed -i 's|kdesudo|%{_libdir}/kde4/libexec/kdesu|g' device.cpp
 
 %build
 %cmake_kde4
