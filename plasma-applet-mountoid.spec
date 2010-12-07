@@ -1,7 +1,7 @@
 %define name	plasma-applet-mountoid
 %define srcname	mountoid
 %define version	0.33
-%define release	%mkrel 3
+%define release	%mkrel 4
 %define Summary	 Plasmoid for mount/unmount devices from fstab
 
 
