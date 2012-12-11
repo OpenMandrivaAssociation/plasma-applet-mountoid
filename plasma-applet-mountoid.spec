@@ -53,3 +53,29 @@ sed -i 's|kdesudo|%{_libdir}/kde4/libexec/kdesu|g' device.cpp
 
 %clean
 %__rm -rf %buildroot
+
+
+%changelog
+* Fri Dec 17 2010 John Balcaen <mikala@mandriva.org> 0.41-1mdv2011.0
++ Revision: 622736
+- Update to 0.41
+- Drop patch0 (merged upstream)
+- Drop SOURCE1 (merged upstream)
+- Fix file list
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - the mass rebuild of 2010.1 packages
+
+* Tue Jun 01 2010 John Balcaen <mikala@mandriva.org> 0.33-3mdv2010.1
++ Revision: 546872
+- Add patch0 (submitted upstream) to fix linux icon name
+- provides an icon from kappfinder
+
+* Tue Apr 13 2010 John Balcaen <mikala@mandriva.org> 0.33-2mdv2010.1
++ Revision: 533755
+- Use kdesu instead of kdesudo
+
+* Sun Apr 11 2010 John Balcaen <mikala@mandriva.org> 0.33-1mdv2010.1
++ Revision: 533593
+- import plasma-applet-mountoid
+
