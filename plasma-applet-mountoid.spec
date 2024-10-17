@@ -12,7 +12,7 @@ Release:	%release
 Source0:	http://www.kde-look.org/CONTENT/content-files/115943-%{srcname}-%{version}.tar.gz
 License:	GPLv2
 Group:		Graphical desktop/KDE
-URL:		http://kde-look.org/content/show.php/Mountoid?content=115943
+URL:		https://kde-look.org/content/show.php/Mountoid?content=115943
 BuildRequires:	kdebase4-workspace-devel
 Provides:	plasma-applet
 
