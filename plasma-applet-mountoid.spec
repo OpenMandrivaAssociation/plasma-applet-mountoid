@@ -13,6 +13,7 @@ Source0:	http://www.kde-look.org/CONTENT/content-files/115943-%{srcname}-%{versi
 License:	GPLv2
 Group:		Graphical desktop/KDE
 URL:		https://kde-look.org/content/show.php/Mountoid?content=115943
+BuildRequires:	make
 BuildRequires:	kdebase4-workspace-devel
 Provides:	plasma-applet
 
